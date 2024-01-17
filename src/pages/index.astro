@@ -1,0 +1,143 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import LinkButton from "@components/LinkButton.astro";
+import Hr from "@components/Hr.astro";
+import Card from "@components/Card";
+import getSortedPosts from "@utils/getSortedPosts";
+import slugify from "@utils/slugify";
+
+const posts = await getCollection("blog");
+const sortedPosts = getSortedPosts(posts);
+//const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+
+---
+
+<Layout>
+  <Header />
+  <main id="main-content">
+    <section id="hero">
+    <pre style="position:relative;left:50%;text-align:center;overflow:hidden;transform:translateX(-50%);width:auto;">
+                       .__                              
+                       | |                              
+ ____                  |'|            ._____            
+|    |    .___ ___    |  |            |.   |' .---"|    
+|    | _  | .-'   '-. |  |     .--'|  ||   | _|    |-+  
+|   .-'|  +.|  |    ||   '-__  |   |  |    ||      | |_ 
+|   |' | |. |  |    ||       | |   |  |    ||      | | |
+| __|  '-'  '  '    ""       '-'   '-.'    '`      |   |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    </pre>
+    <p>
+      After managing my blog in wordpress for ages while dabbling in finding
+      a right platform for hosting it, it is time to move to a modern platform.
+      my aim is to get things simple, readable, searchable and aesthetically
+      pleasing. So here it is. Astro based blog to which I'll slowly migrate
+      all my old blogs to.
+    </p>
+    <br>
+    <p>
+      I am sure it will be a lot of work. But I am also sure that it will be
+      totally worth the effort.
+    </p>
+    </section>
+
+    <br>
+    <Hr />
+
+    <section id="recent-posts">
+      {/* <h2>Latest Posts</h2> */}
+      <ul>
+        {
+          sortedPosts
+            .filter(({ data }) => !data.featured)
+            .map(
+              ({ data }, index) =>
+                index < 5 && (
+                  <Card
+                    href={`/posts/${slugify(data)}`}
+                    frontmatter={data}
+                    secHeading={false}
+                  />
+                )
+            )
+        }
+      </ul> 
+      <div class="all-posts-btn-wrapper">
+        <LinkButton href="/posts">
+          All Posts
+          <svg xmlns="http://www.w3.org/2000/svg"
+            ><path
+              d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+            ></path>
+          </svg>
+        </LinkButton>
+      </div>
+    </section>
+
+    <Hr />
+
+    {/*
+      featuredPosts.length > 0 && (
+        <>
+          <section id="featured">
+            <h2>Featured</h2>
+            <ul>
+              {featuredPosts.map(({ data }) => (
+                <Card
+                  href={`/posts/${slugify(data)}`}
+                  frontmatter={data}
+                  secHeading={false}
+                />
+              ))}
+            </ul>
+          </section>
+          <Hr />
+        </>
+      )
+    */}
+
+  </main>
+
+  <Footer noMarginTop={true} />
+</Layout>
+
+<style>
+  /* ===== Hero Section ===== */
+  #hero {
+    @apply pb-6 pt-8;
+  }
+  #hero h1 {
+    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+  }
+  #hero .rss-link {
+    @apply mb-6;
+  }
+  #hero .rss-icon {
+    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
+  }
+  #hero p {
+    @apply my-2;
+  }
+  .social-wrapper {
+    @apply mt-4 flex flex-col sm:flex-row sm:items-center;
+  }
+  .social-links {
+    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
+  }
+
+  /* ===== Featured & Recent Posts Sections ===== */
+  #featured,
+  #recent-posts {
+    @apply pb-6 pt-12;
+  }
+  #featured h2,
+  #recent-posts h2 {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+  .all-posts-btn-wrapper {
+    @apply my-8 text-center;
+  }
+</style>
