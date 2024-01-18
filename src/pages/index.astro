@@ -30,25 +30,14 @@ const sortedPosts = getSortedPosts(posts);
 | __|  '-'  '  '    ""       '-'   '-.'    '`      |   |
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     </pre>
-    <p>
-      After managing my blog in wordpress for ages while dabbling in finding
-      a right platform for hosting it, it is time to move to a modern platform.
-      my aim is to get things simple, readable, searchable and aesthetically
-      pleasing. So here it is. Astro based blog to which I'll slowly migrate
-      all my old blogs to.
-    </p>
     <br>
-    <p>
-      I am sure it will be a lot of work. But I am also sure that it will be
-      totally worth the effort.
+    <h2 class="text-center text-xl">From Pixels to Plans</h2>
+    <p class="text-center sm:px-12">
+	A culmination of Spatial Analysis, Data Science, and AI Pioneering the Smart City Revolution.
     </p>
     </section>
-
-    <br>
-    <Hr />
-
     <section id="recent-posts">
-      {/* <h2>Latest Posts</h2> */}
+      <h2>Latest Posts</h2> 
       <ul>
         {
           sortedPosts
@@ -76,32 +65,8 @@ const sortedPosts = getSortedPosts(posts);
         </LinkButton>
       </div>
     </section>
-
-    <Hr />
-
-    {/*
-      featuredPosts.length > 0 && (
-        <>
-          <section id="featured">
-            <h2>Featured</h2>
-            <ul>
-              {featuredPosts.map(({ data }) => (
-                <Card
-                  href={`/posts/${slugify(data)}`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
-            </ul>
-          </section>
-          <Hr />
-        </>
-      )
-    */}
-
   </main>
-
-  <Footer noMarginTop={true} />
+  <Footer noMarginTop={false} />
 </Layout>
 
 <style>
@@ -131,11 +96,11 @@ const sortedPosts = getSortedPosts(posts);
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
   #recent-posts {
-    @apply pb-6 pt-12;
+    @apply pb-6 pt-6;
   }
   #featured h2,
   #recent-posts h2 {
-    @apply text-2xl font-semibold tracking-wide;
+    @apply text-base underline underline-offset-8 decoration-1 decoration-dotted text-slate-500;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
