@@ -31,4 +31,4 @@ pnpm-debug.log*
 .pnp.*
 
 # build results
-.dist
+dist/
