@@ -4,24 +4,23 @@ author: Bala Soundararaj
 pubDatetime: 2024-01-18T02:57:14Z
 tags:
   - Updates
-description: "After 15 years of bloggin on and off using Wordpress, I am finally making a clean break
-and starting with Astro for a more simplified and focused output"
+description: "After 15 years of blogging on and off using Wordpress, I am finally making a clean break and starting with Astro for a more simplified and focused output"
 ---
 
 Its been 19 years since I started my first blog.
 I created it using "My Opera" service in 2005.
 What a strange time it was!
-I was a freshman in college, internet was painfully slow, Hi5 was the favorite social network in my circles and iPod nano was the hottest new product.
-Things have changed a lot since then but my blogging habits have remained more or less same since.
+I was a fresher in college, internet was painfully slow, Hi5 was the favorite social network in my circles and iPod nano was the hottest new product.
+Things have changed a lot since then but my blogging habits have remained more or less same.
 
-On the technical side, I moved from 'My Opera' to wordpress around 2009 and never looked back.
+On the technical side, I moved from 'My Opera' to wordpress around 2009 and hasn't changed since.
 Although I dabbled with ghost in 2013 and tried making my own blogging platform in 2019, I never had a working blog outside wordpress in the past 15 years.
 The only big change I did was to move my wordpress site from 'wordpress.com' to my own server with a custom domain in 2018.
 On the content side, I have always posted sporadically about various topics of my interest ranging from personal updates, technology, programming/coding, urban planning, geography, etc.
-These days, I don't post as often as I used to but often feel the need to sit down and write a long post on things I know about and want to ramble about.
-As I am becoming more academically inclined in my job, its only a matter of time before I start writing regularly.
+I don't post as often these days but do feel the need to sit down and write a long post on things I know and want to ramble about.
+As I am becoming more academically inclined in my job, its only a matter of time before I am forced to write regularly.
 
-That being said, I am finally moving away from Wordpress this year.
+All of that that being said, I am finally moving away from Wordpress this year.
 I am doing this primarily to simplyfy the 'blog' setup.
 In the last 15 years of wordpress, my knowledge of web development and the front-end stack has evolved quite a lot.
 At this point, I think we don't need as many moving parts (database, PHP, plugins, user accounts etc) for running a simple, minimal blog.

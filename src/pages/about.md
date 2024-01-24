@@ -1,36 +1,27 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: ""
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+## About myself
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+I am an urban planner who has a multi-disciplinary expertise across artificial intelligence, computer science, data engineering, data science, big data analytics, geography, geographic information systems, network/graph analysis etc.
+I have worked in both academia and industry for the past 10 years across almost all the above disciplines.
+Currently, I am an academic at University of New South Wales, Sydney researching on application of AI in Planning.
+I cook really well.
+I love maintaining & customising my gear (computers, keyboards, car etc.).
+I like some outdoorsy stuff camping, kayaking, hiking etc.
+I love making small, interactive tools and visualisations.
+I am active on [reddit](https://www.reddit.com/user/balanaicker) which shows the kind of stuff I am usually interested in.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+## About the blog
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+This is my personal blog.
+I started writing blogs in 2005 when I was 17.
+A blog was the closest thing to a webpage I could create for myself back then.
+I loved the fact that I had a location on the "world wide web" with my name and picutre on it.
+Social media websites kind of took this novelty out of blogs.
+Slowly people's identity switched to their Orkut, Facebook, IG, GitHub etc. but I never got 100% on this bangwagon.
+I have never like the fact that I had no control over these profile pages.
+Moreover you can spend time creating these online identities and they can disappear with the company that hosted them.
+So I have always maintained a blog for myself and planning to keep on active for the forseeable future.
