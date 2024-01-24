@@ -1,9 +1,9 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://bala.sh/",
+  website: "https://sbmkvp.github.io",
   author: "Dr Balamurugan Soundararaj",
-  desc: "Urban Planner | Spatial Data Scientist | Geographic AI researcher",
+  desc: "A blog by Bala covering a combination of Spatial Analysis, Data Science, and AI that is fuelling the Smart City revolution.",
   title: "bala.sh",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,

@@ -8,7 +8,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://sbmkvp.github.io",
+  site: SITE.website,
   base: "bala.sh",
   integrations: [
     tailwind({
