@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Dr Balamurugan Soundararaj",
   desc: "A blog by Bala covering a combination of Spatial Analysis, Data Science, and AI that is fuelling the Smart City revolution.",
   title: "bala.sh",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "og.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
 };

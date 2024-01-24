@@ -1,10 +1,10 @@
 ---
 title: A big change and clean break into 2024
 author: Bala Soundararaj
-pubDatetime: 2024-01-18T02:57:14Z
+pubDatetime: 2024-01-24T13:30:00Z
 tags:
   - Updates
-description: "After 15 years of blogging on and off using Wordpress, I am finally making a clean break and starting with Astro for a more simplified and focused output"
+description: "It has been 19 years since I started my first blog using 'My Opera' in 2005. Although lot of things have changed since, my blogging habits have stayed the same. I moved to WordPress in 2009, briefly tried other platforms, and eventually moved my WordPress site to my own server in 2018. This year, as a major change I am moving my blog platform to Astro. The content is going to be the same but will prioritise longer and more theoretical posts."
 ---
 
 Its been 19 years since I started my first blog.

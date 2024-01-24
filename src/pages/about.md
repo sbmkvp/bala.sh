@@ -18,10 +18,11 @@ I am active on [reddit](https://www.reddit.com/user/balanaicker) which shows the
 
 This is my personal blog.
 I started writing blogs in 2005 when I was 17.
-A blog was the closest thing to a webpage I could create for myself back then.
+Back then a blog was the closest thing to a webpage I could create for myself.
 I loved the fact that I had a location on the "world wide web" with my name and picutre on it.
-Social media websites kind of took this novelty out of blogs.
-Slowly people's identity switched to their Orkut, Facebook, IG, GitHub etc. but I never got 100% on this bangwagon.
-I have never like the fact that I had no control over these profile pages.
-Moreover you can spend time creating these online identities and they can disappear with the company that hosted them.
-So I have always maintained a blog for myself and planning to keep on active for the forseeable future.
+Eventually social media websites took this novelty out of blogs and people's online identity switched to their Orkut, Facebook, IG, GitHub etc. profiles.
+I never got 100% on this bangwagon.
+I not only disliked the fact that I had no control over these profile pages but also dreaded the eventual shutdown of these services resulting in the loss of my online identity.
+Considering this, I have always maintained a blog for myself and will maintain one for the forseeable future.
+
+This blog, like my previous blogs is a mixture of everything. A collection of my knowledge, opinions, ideas and thoughts in the realm of Urban Planning, Computer Science, Information Technology, Geography and Artificial Intelligence. It might also get sporadic personal updates.
