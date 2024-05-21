@@ -12,6 +12,11 @@ title: ""
     <div class="text-xs">MapAI - Teaching Maps to Talk</div>
   </a></div>
 
+  <div><a class="no-underline" href="https://www.unsw.edu.au/newsroom/news/2024/05/city-futures-reasearch-centre-receives-1-million-to-create-state-of-the-art-housing-data-lab">
+    <img class="!border !border-slate-500 mb-2" src="/images/major_projects/housing_analytics_lab.png" alt="UNSW City Analytics Lab"></img>
+    <div class="text-xs">Housing Analytics Lab</div>
+  </a></div>
+
   <div><a class="no-underline" href="https://www.unsw.edu.au/arts-design-architecture/our-schools/built-environment/our-research/clusters-groups/city-analytics-lab">
     <img class="!border !border-slate-500 mb-2" src="/images/major_projects/city_analytics_lab.png" alt="UNSW City Analytics Lab"></img>
     <div class="text-xs">UNSW City Analytics Lab</div>
