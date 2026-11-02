@@ -1,11 +1,4 @@
-function withOpacity(variableName) {
-  return ({ opacityValue }) => {
-    if (opacityValue !== undefined) {
-      return `rgba(var(${variableName}), ${opacityValue})`;
-    }
-    return `rgb(var(${variableName}))`;
-  };
-}
+const withOpacity = variableName => `rgb(var(${variableName}) / <alpha-value>)`;
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
