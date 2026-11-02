@@ -4,7 +4,7 @@ import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Tag from "@components/Tag.astro";
 import Datetime from "@components/Datetime";
-import type { CollectionEntry } from "astro:content";
+import { type CollectionEntry, render } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 
 export interface Props {
@@ -16,7 +16,7 @@ const { post } = Astro.props;
 const { title, author, description, ogImage, canonicalURL, pubDatetime, tags } =
   post.data;
 
-const { Content } = await post.render();
+const { Content } = await render(post);
 
 const ogImageUrl = typeof ogImage === "string" ? ogImage : ogImage?.src;
 const ogUrl = new URL(
@@ -60,13 +60,17 @@ const ogUrl = new URL(
 </Layout>
 
 <style>
-  main {
-    @apply mx-auto w-full max-w-3xl px-4 pb-12;
-  }
-  .post-title {
-    @apply text-2xl font-semibold text-skin-accent;
-  }
-  .tags-container {
-    @apply my-8;
+  @reference "../styles/base.css";
+
+  @layer base {
+    main {
+      @apply mx-auto w-full max-w-3xl px-4 pb-12;
+    }
+    .post-title {
+      @apply text-2xl font-semibold text-skin-accent;
+    }
+    .tags-container {
+      @apply my-8;
+    }
   }
 </style>

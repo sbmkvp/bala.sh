@@ -22,7 +22,11 @@ const { href, className, ariaLabel, title, disabled = false } = Astro.props;
 </a>
 
 <style>
-  a {
-    @apply hover:text-skin-accent;
+  @reference "../styles/base.css";
+
+  @layer base {
+    a {
+      @apply hover:text-skin-accent;
+    }
   }
 </style>
