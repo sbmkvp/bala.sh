@@ -69,6 +69,12 @@ Both rankings leave out the 13 SA2s with fewer than 500 residents in 2025.
 
 ## What MapAI did
 
+By the numbers, this map took:
+
+- **26 tool calls**
+- **About 3 minutes 45 seconds** (225 seconds) from prompt to finished map
+- **About 144 credits**
+
 Here is its evidence trail, in its own words where possible.
 
 ### How it understood the question
@@ -139,6 +145,8 @@ MapAI flagged two:
 
 - **It could not use the palette I asked for.** MapAI's supported choropleth palettes do not include a red-white-dark-blue diverging ramp, so it used the closest supported blue ramp instead.
 - **13 of the 364 SA2s had fewer than 500 residents in 2025** and were left out of the rankings.
+
+You can explore the live map here: [03 Polygons - Growth in Sydney](https://app.mapai.net/share/170e76a2aff04c8c938e413b3e15912b).
 
 ## What I noticed
 
