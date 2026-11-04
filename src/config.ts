@@ -12,6 +12,8 @@ export const SITE: Site = {
 
 export const LOCALE = [];
 
+export const TIMEZONE = "Australia/Sydney";
+
 export const LOGO_IMAGE = {
   enable: false,
   svg: true,
