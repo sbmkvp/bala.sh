@@ -124,6 +124,8 @@ MapAI flagged seven, the most of any map so far:
 - **No single zone, height limit or FSR** applies to the whole area.
 - **The basemap can't be set by a layer**, so the styling suits a dark basemap rather than choosing one.
 
+You can explore the live map here: [14 Power - Everything Map Rosebery](https://app.mapai.net/share/ed26fd28fdab467289c4ec5bfb6b2da2).
+
 ## What I noticed
 
 ### The $342 billion problem
